@@ -13,5 +13,5 @@ May 2020.
 ## Dependency:
 - **Python** (3.7)
 - **wxPython** (4.0)
-- **PyAudio (0.2)
-- **PySerial (3.4)
+- **PyAudio** (0.2)
+- **PySerial** (3.4)
