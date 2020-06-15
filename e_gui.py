@@ -58,7 +58,7 @@ from modules.script_panel import ScriptPanel
 from modules.fFuncNClasses import GNU_notice, writeFile, get_time_stamp, show_msg, set_img_for_btn
 
 DEBUGGING = False
-VERSION = 'v.0.2'
+__version__ = 'v.0.2'
 
 #====================================================
 
@@ -98,7 +98,7 @@ class EGUIFrame(wx.Frame):
         w_size = (wx.Display(0).GetGeometry()[2], wx.Display(0).GetGeometry()[3]-w_pos[1]) 
         self.w_sz = w_size # initial size
 
-        wx.Frame.__init__(self, None, -1, "Experimenter_GUI - %s"%VERSION, 
+        wx.Frame.__init__(self, None, -1, "Experimenter_GUI - %s"%__version__, 
                           pos = w_pos, 
                           size = w_size) 
                           #style=wx.DEFAULT_FRAME_STYLE^(wx.RESIZE_BORDER|wx.MAXIMIZE_BOX))
