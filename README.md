@@ -1,4 +1,4 @@
-# Experimneter
+# Experimenter
 
 Application to generate (in GUI interface) a Python script for running a simple psychological experiment for animal subjects.<br>
 A user can add some features which will directly added to the generated script, edit and save in the application.<br>
